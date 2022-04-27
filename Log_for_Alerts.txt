@@ -1,0 +1,214 @@
+2022-04-26 09:09:00: 10.1.50.0 is down 
+ 
+2022-04-26 09:09:00: 10.1.50.0 alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-26 09:09:00: 10.1.50.0 is down 
+ 
+2022-04-26 09:15:05: 10.1.50.0 is down 
+ 
+2022-04-26 09:15:05: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-26 09:15:05: 10.1.50.0 is down 
+ 
+2022-04-26 09:15:05: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-26 09:15:05: 10.1.50.0 is down 
+ 
+2022-04-26 09:15:05: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-26 09:15:05: 10.1.50.0 is down 
+ 
+2022-04-26 09:17:19: 10.1.50.0 is down 
+ 
+2022-04-26 09:17:29: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-26 09:17:41: 10.1.50.0 is down 
+ 
+2022-04-26 09:17:51: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 14:36:58: 10.1.50.0 is down 
+ 
+2022-04-27 14:37:09: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 14:40:02: 10.1.50.0 is down 
+ 
+2022-04-27 14:40:12: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 14:40:22: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 14:40:35: 10.1.50.0 is down 
+ 
+2022-04-27 14:40:45: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 14:40:56: 10.1.50.0 down alert has not been acknowledged by user. Pausing alerts for 60 minutes 
+ 
+2022-04-27 14:48:25: 10.1.50.0 is down 
+ 
+2022-04-27 14:48:35: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 14:48:45: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 14:48:57: 10.1.50.0 is down 
+ 
+2022-04-27 15:44:19: 10.1.50.0 is down 
+ 
+2022-04-27 15:44:30: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 15:44:40: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 15:44:52: 10.1.50.0 is down 
+ 
+2022-04-27 15:45:02: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 15:45:12: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 15:45:25: 10.1.50.0 is down 
+ 
+2022-04-27 15:45:35: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 15:46:38: 10.1.50.0 is down 
+ 
+2022-04-27 15:46:48: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 15:46:58: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 15:47:10: 10.1.50.0 is down 
+ 
+2022-04-27 15:47:21: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 15:47:31: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 15:47:43: 10.1.50.0 is down 
+ 
+2022-04-27 15:47:54: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 15:48:04: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 15:48:16: 10.1.50.0 is down 
+ 
+2022-04-27 15:48:28: 10.1.50.0 down alert has not been acknowledged by user. Pausing alerts for 60 minutes 
+ 
+2022-04-27 15:49:53: 10.1.50.0 is down 
+ 
+2022-04-27 15:50:04: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 15:50:14: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 15:50:26: 10.1.50.0 is down 
+ 
+2022-04-27 15:50:36: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 15:50:46: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 15:50:58: 10.1.50.0 is down 
+ 
+2022-04-27 15:51:09: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 15:51:19: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 15:51:31: 10.1.50.0 is down 
+ 
+2022-04-27 15:51:42: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 15:52:32: 10.1.50.0 is down 
+ 
+2022-04-27 15:52:43: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 15:52:53: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 15:55:04: 10.1.50.0 is down 
+ 
+2022-04-27 15:55:15: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 15:55:25: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 15:55:37: 10.1.50.0 is down 
+ 
+2022-04-27 15:55:48: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 15:55:58: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 15:56:10: 10.1.50.0 is down 
+ 
+2022-04-27 15:56:20: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 15:56:30: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 16:07:45: 10.1.50.0 is down 
+ 
+2022-04-27 16:07:56: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 16:08:06: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 16:08:18: 10.1.50.0 is down 
+ 
+2022-04-27 16:08:28: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 16:08:38: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 16:08:50: 10.1.50.0 is down 
+ 
+2022-04-27 16:09:01: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 16:09:11: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 16:09:23: 10.1.50.0 is down 
+ 
+2022-04-27 16:18:48: 10.1.50.0 is down 
+ 
+2022-04-27 16:18:58: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 16:19:08: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 16:19:21: 10.1.50.0 is down 
+ 
+2022-04-27 16:19:31: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 16:19:41: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 16:19:53: 10.1.50.0 is down 
+ 
+2022-04-27 16:20:04: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 16:20:14: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 16:20:50: 10.1.50.0 is down 
+ 
+2022-04-27 16:21:00: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 16:21:10: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 16:21:23: 10.1.50.0 is down 
+ 
+2022-04-27 16:21:33: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 16:22:34: 10.1.50.0 is down 
+ 
+2022-04-27 16:22:44: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 16:22:54: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 16:23:06: 10.1.50.0 is down 
+ 
+2022-04-27 16:23:17: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 16:23:27: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 16:23:39: 10.1.50.0 is down 
+ 
+2022-04-27 16:23:49: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 16:23:59: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 16:24:12: 10.1.50.0 is down 
+ 
+2022-04-27 16:57:54: 10.1.50.0 is down 
+ 
+2022-04-27 16:58:04: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 16:58:14: 10.1.50.0 down alert has been not been acknowledged. Sending another alert in 60 seconds 
+ 
+2022-04-27 16:58:27: 10.1.50.0 is down 
+ 
+2022-04-27 16:58:39: 10.1.50.0 down alert has not been acknowledged by user. Pausing alerts for 60 minutes 
+ 
