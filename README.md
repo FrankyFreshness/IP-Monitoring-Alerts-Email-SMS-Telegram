@@ -17,7 +17,7 @@ This project monitors a given list of IP addresses/domain names by pinging and s
 		- i.e. +12345678912@yourcarrierEmail2SMS.com
 
 
-- A new gmail account with 2-Step Verification turned on and with an App Password
+- A gmail account to send emails from with 2-Step Verification turned on and with an App Password
 	- To create an app passsword, follow the steps here https://support.google.com/accounts/answer/185833?hl=en
 		- This is the password you will use for Gmail Password 
 
@@ -25,9 +25,9 @@ This project monitors a given list of IP addresses/domain names by pinging and s
 ### How to use this program ###
 
 There are two .txt files in this folder that need to be edited, they are
-named Credentials and ip_list. 
+named Credentials.txt and ip_list.txt.  
 
-Credentials will need:
+**Credentials.txt** will need:
 - (Optional) Telegram bot token (Leave blank if you do not want Telegram and run the IP_MonitoringAlerts(NoTelegram).py file)
 - (Optional) Telegram Chat ID (Leave blank if you do not want Telegram and run the IP_MonitoringAlerts(NoTelegram).py file)
 - Gmail password
@@ -36,15 +36,16 @@ Credentials will need:
 - Receiver Email
 - SMS Email (also used for additional emails you'd like alerts to go to). 
 
-The ip_list will take in the IP Address/Domain names 
+The **ip_list.txt** will take in the IP Address/Domain names 
 (i.e google.com, exclude the www.) that you would like to monitor in a vertical list. 
 
-In SendEmailAlert.py, you can edit and change the subject line, 'html' variable
-for the body of your email, and the 'text' variable for SMS messages. 
+In **SendEmailAlert.py**, you can edit and change email body that is sent if you like or leave it as is. The 'html' variable is for email messsages and the 'text' variable is for SMS messages. (Yes I could've put this in the .txt file as well but I find it easier to do it in the project itself for formatting)
 
+![image](https://user-images.githubusercontent.com/43974559/165633786-e92e0829-2fca-4ef8-aaec-4d45db4d9e23.png)
 
+The **message** variable you see in the html body is what is used in the main project to include the IP variable created there so you can be notified of which IP went down as well as any additional custome message depending on the alert. 
 
-
+![image](https://user-images.githubusercontent.com/43974559/165634643-e9c5744d-4641-4007-8454-f2beb440e175.png)
 
 
 
