@@ -29,9 +29,9 @@ This project monitors a given list of IP addresses/domain names by pinging and s
 
 ### <ins>How to use this program </ins>
 
-There are two .txt files in this folder that need to be fillked in: **ProjectInfo.txt** and **ip_list.txt**.  
+There are two files in this folder that need to be filled in: **ProjectInfo.json** and **ip_list.txt**.  
 
-**ProjectInfo.txt** will need:
+**ProjectInfo.json** will need:
 - (Optional) Telegram bot token (Leave blank if you do not want Telegram and run the IP_MonitoringAlerts(NoTelegram).py file)
 - (Optional) Telegram Chat ID (Leave blank if you do not want Telegram and run the IP_MonitoringAlerts(NoTelegram).py file)
 - Gmail password
@@ -44,15 +44,33 @@ There are two .txt files in this folder that need to be fillked in: **ProjectInf
 - Ack SMS Text (This is the response text that is sent to user's acknowledgement of the alert)
 - Ack Email HTML Body (This is the response email to user's acknowledgement of the alert)
 
-The **ip_list.txt** will take in the IP Address/Domain names 
-(i.e google.com, exclude the www.) that you would like to monitor in a vertical list. 
+
+![image](https://user-images.githubusercontent.com/43974559/166006930-44aede56-0cc0-4185-8055-83cacf58632b.png)
 
 <br />
 
+The **ip_list.txt** will take in the IP Address/Domain names 
+(i.e google.com, exclude the www.) that you would like to monitor in a vertical list. 
+
+
+![image](https://user-images.githubusercontent.com/43974559/166007218-241924be-0518-45cf-9dff-203b7581e6a3.png)
+
+<br />
+
+And that's it! Once you have your info filled and saved in the json and txt file, run the **IP_MonitoringAlerts.py** or **IP_MonitoringAlerts(NoTelegram).py** and voila!
+
+<br />
 
 ### <ins>How it works </ins>
 
-The **subprocess** module is used to perform the ping command and it is set to run in an infinite loop so it is constantly pinging the IP/domain given (there are sleep timers later on that you can utilize to manage how often it pings, how long it will wait for a user's acknowledgement before sending another alert, and how long it will pause alerts once receving an acknowledgement). 
+The main module is **IP_MonitoringAlerts.py** and this is where all the other modules are brought together to make this thing work. We'll start with going through this file first.
+
+<br />
+
+The **subprocess** module is a built in Python module that is imported into this file and is used to perform the ping command and it is set to run in an infinite loop so it is constantly pinging the IP/domain given (there are sleep timers later on that you can utilize to manage how often it pings, how long it will wait for a user's acknowledgement before sending another alert, and how long it will pause alerts once receving an acknowledgement). 
+
+![image](https://user-images.githubusercontent.com/43974559/166008671-76f54fed-a562-43d4-a2a9-d5a54604e66a.png)
+
 
 ![image](https://user-images.githubusercontent.com/43974559/165816529-4c17f255-7a05-4e10-a7ea-4c6d7140def8.png)
 
