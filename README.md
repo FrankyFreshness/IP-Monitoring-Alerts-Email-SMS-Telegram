@@ -68,6 +68,14 @@ The main module is **IP_MonitoringAlerts.py** and this is where all the other mo
 <br />
 
 The **subprocess** module is a built in Python module that is imported into this file and is used to perform the ping command and it is set to run in an infinite loop so it is constantly pinging the IP/domain given (there are sleep timers later on that you can utilize to manage how often it pings, how long it will wait for a user's acknowledgement before sending another alert, and how long it will pause alerts once receving an acknowledgement). 
+The other modules (besides time which is another built in module for pausing the program) are the other files in this project used for various functions:  	
+
+- **TelegramBotAlert** (Sends and reads messages in Telegram)
+- **SendEmailAlert** (Sends alert and acknowledgement emails)
+- **EmailResponseReader** (Reads responses from user)
+- **LoggingAlerts** (Logs events to a file)
+
+There is also a **JSONFileReader** module which reads the values in the JSON document and assigns them to useable variables. 
 
 ![image](https://user-images.githubusercontent.com/43974559/166008671-76f54fed-a562-43d4-a2a9-d5a54604e66a.png)
 
@@ -96,8 +104,6 @@ There **EmailResponseReader** module runs the function **CheckEmailforAck()**. T
 The **TelegramBotAlert** module is run and checks if the user responded with an "Ack" or "ack" via Telegram. If it did, it will send a Telegram response, email response, and log this event. This also has a sleep timer of 60 seconds. 
 
 ![image](https://user-images.githubusercontent.com/43974559/165821794-ee41f9a6-a1fc-4412-82a9-9dee8f590399.png)
-
-
 
 
 
