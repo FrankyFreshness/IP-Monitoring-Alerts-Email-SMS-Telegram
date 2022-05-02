@@ -61,6 +61,30 @@ And that's it! Once you have your info filled and saved in the json and txt file
 
 <br />
 
+### <ins>Result </ins>
+
+Telegram bot Alert and acknowledgment:
+
+![image](https://user-images.githubusercontent.com/43974559/166242244-4761f184-3352-493e-b29d-568e6ebb1991.png)
+
+
+Alert and Acknowledgment Email: 
+
+![image](https://user-images.githubusercontent.com/43974559/166240217-33df2f31-0a58-43cc-9dd1-09f1eb1deb21.png)
+
+![image](https://user-images.githubusercontent.com/43974559/166241867-35c97ec2-d0d6-4df8-84bd-005585847f26.png)
+
+
+
+SMS Alert and Acknowledgment:
+
+![image](https://user-images.githubusercontent.com/43974559/166241463-3e4a8e6e-4e73-419e-a9ec-2808b2a269e4.png)
+
+
+
+
+<br />
+
 ### <ins>How it works </ins>
 
 The main module is **IP_MonitoringAlerts.py** and this is where all the other modules are brought together to make this thing work. We'll start with going through this file first.
