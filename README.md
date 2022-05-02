@@ -127,7 +127,7 @@ There **EmailResponseReader** module runs the function **CheckEmailforAck()**. T
 
 The **TelegramBotAlert** module is run and checks if the user responded with an "Ack" or "ack" via Telegram. If it did, it will send a Telegram response, email response, and log this event. This also has a sleep timer of 60 seconds. 
 
-![image](https://user-images.githubusercontent.com/43974559/165821794-ee41f9a6-a1fc-4412-82a9-9dee8f590399.png)
+![image](https://user-images.githubusercontent.com/43974559/166249693-67e96583-a933-4087-aa9c-a55c5f7a0da1.png)
 
 
 
