@@ -130,6 +130,11 @@ The **TelegramBotAlert** module is run and checks if the user responded with an 
 ![image](https://user-images.githubusercontent.com/43974559/166249766-6a59920f-7817-4850-add4-6da23768a778.png)
 
 
+Lastly, if ping is not down, it waits 30 seconds before sending another 
+
+![image](https://user-images.githubusercontent.com/43974559/166319085-9eba47a0-8d09-4e84-aa3e-8933b0307b4b.png)
+
+
 
 
 
