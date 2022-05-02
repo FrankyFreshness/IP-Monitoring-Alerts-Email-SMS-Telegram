@@ -1,0 +1,32 @@
+{
+"Telegram bot token": "1234567894",
+"Telegram Chat ID": "123456789",
+"Gmail password": "gmailpass",
+"Subject for Email": "SERVICE ALERT ⚠️️",
+"Sender Email":"sender@gmail.com",
+"Receiver Email": "receiveremail@gmail.com,
+"SMS Email": "+12345678910@carriersms.net",
+"Alert SMS Text": "This is an alert for your services \n\n",
+"Alert Email HTML Body": "<html><head></head><body><h1>\uD83D\uDEA8 This is an alert for your services \uD83D\uDEA8</h1></br></br></body></html>",
+"Ack SMS Text": "Your acknowledgement has been received ✓ \n\n Pausing alerts for 60 minutes",
+"Ack Email HTML Body": "<html><head></head><body><h1>Your acknowledgement has been received. &#10003;</h1></br></br>Pausing alerts for 60 minutes</p></body></html>",
+
+
+
+"##NOTE##":"If you would like to add additional emails, add them AFTER the 'SMS Email' and NOT 'Receiver Email'.",
+        "": "'SMS Email' works as a CC and adding additional emails,to 'Receiver Email' will not work.",
+        "": "You must put a comma after the email and NO space. Like so: +12345678901@SMS2Email.net,addtionalemail@gmail.com",
+
+        "": "If you would like Emojis to be sent in SMS Text, you will have to copy them into your message in UTF-8 format. Email needs HTML"
+}
+
+
+
+
+
+
+
+
+
+
+
