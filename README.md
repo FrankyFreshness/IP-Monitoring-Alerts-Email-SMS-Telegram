@@ -25,6 +25,15 @@ This project monitors a given list of IP addresses/domain names by pinging and s
 		- This is the password you will use for Gmail Password 
 
 
+
+**NOTE**: If you do not want to use Gmail, you will have to change the SMTP server in the SendEmailAlert.py module. You can change the smtp server on line 66.
+
+![image](https://user-images.githubusercontent.com/43974559/166486334-3c0d96fe-81aa-4a22-8112-096d71b54ba5.png)
+
+Simply change "smtp.gmail.com" to your email's SMTP server (i.e. Outlook is "smtp-mail.outlook.com" , Yahoo is "smtp.mail.yahoo.com", etc...)
+
+You can just google your smtp server and change the username and password in the ProjectInfo.json accordingly and it should work.
+
 <br />
 
 ### <ins>How to use this program </ins>
@@ -65,12 +74,12 @@ And that's it! Once you have your info filled and saved in the json and txt file
 
 Telegram bot Alert and acknowledgment:
 
-![image](https://user-images.githubusercontent.com/43974559/166242244-4761f184-3352-493e-b29d-568e6ebb1991.png)
+![image](https://user-images.githubusercontent.com/43974559/166484531-18d18283-2b03-47c8-9ae4-a93960ca55a9.png)
 
 
 Alert and Acknowledgment Email: 
 
-![image](https://user-images.githubusercontent.com/43974559/166240217-33df2f31-0a58-43cc-9dd1-09f1eb1deb21.png)
+![image](https://user-images.githubusercontent.com/43974559/166484815-e957358d-b352-44e5-afa2-0ce2be79fb3b.png)
 
 ![image](https://user-images.githubusercontent.com/43974559/166241867-35c97ec2-d0d6-4df8-84bd-005585847f26.png)
 
@@ -78,7 +87,7 @@ Alert and Acknowledgment Email:
 
 SMS Alert and Acknowledgment:
 
-![image](https://user-images.githubusercontent.com/43974559/166241463-3e4a8e6e-4e73-419e-a9ec-2808b2a269e4.png)
+![image](https://user-images.githubusercontent.com/43974559/166485016-3c166b2b-78bc-4f39-9c75-81edf5c4b9ca.png)
 
 
 
@@ -91,7 +100,7 @@ The main module is **IP_MonitoringAlerts.py** and this is where all the other mo
 
 <br />
 
-The **subprocess** module is a built in Python module that is imported into this file and is used to perform the ping command and it is set to run in an infinite loop so it is constantly pinging the IP/domain given (there are sleep timers later on that you can utilize to manage how often it pings, how long it will wait for a user's acknowledgement before sending another alert, and how long it will pause alerts once receving an acknowledgement). 
+The **os** module is a built in Python module that is imported into this file and is used to perform the ping command and it is set to run in an infinite loop so it is constantly pinging the IP/domain given (there are sleep timers later on that you can utilize to manage how often it pings, how long it will wait for a user's acknowledgement before sending another alert, and how long it will pause alerts once receving an acknowledgement). 
 The other modules (besides time which is another built in module for pausing the program) are the other files in this project used for various functions:  	
 
 - **TelegramBotAlert** (Sends and reads messages in Telegram)
@@ -101,11 +110,7 @@ The other modules (besides time which is another built in module for pausing the
 
 There is also a **JSONFileReader** module which reads the values in the JSON document and assigns them to useable variables. 
 
-![image](https://user-images.githubusercontent.com/43974559/166008671-76f54fed-a562-43d4-a2a9-d5a54604e66a.png)
-
-
-![image](https://user-images.githubusercontent.com/43974559/165816529-4c17f255-7a05-4e10-a7ea-4c6d7140def8.png)
-
+![image](https://user-images.githubusercontent.com/43974559/166485357-ff713a66-e835-496c-8ac3-b6b5de969efa.png)
 
 <br />
 
@@ -113,14 +118,17 @@ There are two responses that it looks for before sending an alert, if the ping r
 The **TelegramBotAlert.bot.sendMessage** sends an Alert message along with the faulted IP. The message it sends can be edited here as well as the **SendEmailAlert**. There is also a **LoggingAlerts** module with a function **logs()** which records the time and date of when the alert was triggered to the **Log_for_Alerts.txt** file. The **time.sleep(60)** has the program wait for the user to send an acknowledgement for 60 seconds before checking for a response. This timer can be easily changed. 
 
 
-![image](https://user-images.githubusercontent.com/43974559/165821287-fd881cf9-a75a-40d9-9b75-510029727de1.png)
+![image](https://user-images.githubusercontent.com/43974559/166485558-eb5afdcd-a1ce-4d01-bc68-db40e450f694.png)
+
+![image](https://user-images.githubusercontent.com/43974559/166485816-0fc96c24-7b45-44a9-a9f6-69613c1a6c2f.png)
+
 
 
 <br />
 
 There **EmailResponseReader** module runs the function **CheckEmailforAck()**. This module looks for a response from the user by email/SMS for the word "Ack" or "ack". If it does, it sends an email response, Telegram response, logs the alert has been acknowledged, and pauses the program from running for 60 minutes before resuming. (This time can also be easily changed)
 
-![image](https://user-images.githubusercontent.com/43974559/165821391-268a65fe-16ee-4232-8a2d-20f5b3c6f343.png)
+![image](https://user-images.githubusercontent.com/43974559/166485662-99ac2bc7-16a2-4f48-902a-4f162476eb80.png)
 
 
 <br />
@@ -130,9 +138,9 @@ The **TelegramBotAlert** module is run and checks if the user responded with an 
 ![image](https://user-images.githubusercontent.com/43974559/166249766-6a59920f-7817-4850-add4-6da23768a778.png)
 
 
-Lastly, if ping is not down, it waits 30 seconds before sending another 
+Lastly, if ping is not down, it waits a desired amount of time before sending another ping
 
-![image](https://user-images.githubusercontent.com/43974559/166319085-9eba47a0-8d09-4e84-aa3e-8933b0307b4b.png)
+![image](https://user-images.githubusercontent.com/43974559/166485931-9f55686c-ce1d-40d6-8ac6-e7f503b527e5.png)
 
 
 
