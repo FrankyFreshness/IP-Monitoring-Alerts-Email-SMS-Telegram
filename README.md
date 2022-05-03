@@ -72,6 +72,11 @@ And that's it! Once you have your info filled and saved in the json and txt file
 
 ### <ins>Result </ins>
 
+Python Output:
+
+![image](https://user-images.githubusercontent.com/43974559/166488705-898d5cd6-2159-4559-b0e9-fd00df26fa57.png)
+
+
 Telegram bot Alert and acknowledgment:
 
 ![image](https://user-images.githubusercontent.com/43974559/166484531-18d18283-2b03-47c8-9ae4-a93960ca55a9.png)
