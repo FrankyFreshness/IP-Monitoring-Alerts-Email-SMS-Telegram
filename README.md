@@ -62,7 +62,7 @@ The **ip_list.txt** will take in the IP Address/Domain names
 (i.e google.com, exclude the www.) that you would like to monitor in a vertical list. 
 
 
-![image](https://user-images.githubusercontent.com/43974559/166244577-bc6bce63-fb27-4590-b70f-b9dfbcd0ee90.png)
+![image](https://user-images.githubusercontent.com/43974559/166487154-cebd6cff-88ab-4ce8-8194-976cb111db51.png)
 
 <br />
 
